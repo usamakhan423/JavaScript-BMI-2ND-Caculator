@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@400;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 206, 206);
+}
+.container {
+    margin: 20px;
+    width: 30%;
+    height: 100vh;
+    padding: 30px 60px;
+    border: none;
+    box-shadow: 2px 2px 10px black;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.container h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: orange;
+
+}
+.container .input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.container .input-fields span {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+    margin-bottom: .5rem;
+}
+.container .input-fields input {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 2px 3px rgb(172, 172, 172);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: rgb(233, 233, 233);
+    color: rgb(85, 85, 85);
+}
+.container .input-fields .btn {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    cursor: pointer;
+    width: 200px;
+    margin-left: 40px;
+    transition: .3s ease;
+    box-shadow: 2px 2px 3px rgb(174, 174, 174);
+    margin-bottom: 1rem;
+}
+.container .input-fields .btn:hover {
+    background-color: black;
+    
+}
+
+.container .outcomes {
+    display: flex;
+    flex-direction: column;
+
+}
+.container .outcomes span {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+    margin-bottom: .5rem;
+}
+.container .outcomes p {
+    padding: 20px 40px;
+    border: none;
+    box-shadow: 1px 2px 3px rgb(172, 172, 172);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.container .outcomes .result {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+    border: none;
+    box-shadow: 1px 2px 3px rgb(172, 172, 172);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: rgb(233, 233, 233);
+    
+}
+.container .outcomes h3 {
+    padding: 20px;
+    color: rgb(85, 85, 85);
+}
+.container .outcomes .statement {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(85, 85, 85);
+}
+.btn-clear {
+    background: none;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
